@@ -50,11 +50,11 @@
 <p>The project is divided into three parts:</p>
 
 <ul>
-<li><p>rootio_handset 
+<li><p><em>rootio_handset</em> 
 This is the android code that runs on the station's phone. It is currently factored for a Samsung Pocket Galaxy, though we are probably upgrading to a Duos family phone in the near future. To keep development costs down we are assuming each station has one of these phones, chosen as some of the cheapest in the Subsaharan Africa market. This is a complex app that touches many, many of the subsystems on the phone, from telephony to power, data to storage. The station phones can synchronize their schedule with the cloud and exchange their status through an API with the web service. Built in Java.</p></li>
-<li><p>rootio_web
+<li><p><em>rootio_web</em>
 This is the web service that allows management of scheduling a station, viewing programs, etc. Station managers might look at this every once in a while, but it is essentially an admin interface to the cloud system. It shows real-time status of the phone network as well. Built in python on Flask.</p></li>
-<li><p>station_telephony
+<li><p><em>station_telephony</em>
 This is the telephony backend, where a software daemon lives for each station processing programming an interactions as a state machine, and also exchanges information with the telephony switch and possibly also telcos. Built in python on Freeswitch, communicating to the web service through ZMQ signals.</p></li>
 </ul>
 
