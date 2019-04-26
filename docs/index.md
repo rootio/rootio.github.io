@@ -2,7 +2,7 @@
 RootIO Radio stations are tiny FM radio stations that require little investment, maintenance, or contribution from the community, yet at the same time offer more and better modes of interaction than traditional stations. They are backed by a cloud service that connects the station with telephony and the Internet, allowing many new forms of interaction and information flows. After a few days of installation and training, stations can start to facilitate new economic opportunities, new opportunities for expression and deliberation, and provide information across, into, and out of the community they serve. Listeners just use the same FM radios they already use; if they have a feature (non-smart) phone they can interact with the station in a variety of ways. More general information can be found at our [public site](http://rootio.org).
 
 ### Our Code of Conduct
-[Code_Of_Conduct] (http://rootio.github.io/Code_Of_Conduct.md)
+[Code_Of_Conduct] (https://github.com/rootio/rootio.github.io/blob/master/CODE_OF_CONDUCT.md)
 
 ### Who is RootIO
 RootIO is a team of creative technologists from around the world who saw the continued importance of FM in much of the world, and wanted to make sure it received at least a fraction of the attention that apps, IOT, and the Kardashians get. We imagined Community Radio as a Service (CRaaS), and went about scaling a radio station down to the smallest size as we could imagine, a size which would allow a neighborhood or village to have a station without having to pour resources into it. We've been facilitating four stations in rural Uganda with reasonable success. @csik and @judelove founded the project.
